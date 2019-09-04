@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Todo.module.scss';  // on importe les styles du module (l'extension *.module.scss indique qu'il doit cloisonner les styles du composant
 
-export default class Todo extends Component {
+class Todo extends Component {
 
     // autre méthode pour déclarer le state initial
     constructor(props) {
@@ -24,3 +24,5 @@ export default class Todo extends Component {
         );
     }
 }
+
+export default Todo;

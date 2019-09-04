@@ -1,12 +1,14 @@
 import React, {Component, Fragment} from 'react';
 import TodoList from "./TodoList/TodoList";
 import AddNewList from "./AddNewList/AddNewList";
+import Timer from "./Timer/Timer";
+import PropTypes from 'prop-types';
 
-export default class App extends Component {
+class App extends Component {
 
     state = {
         lists: ['À faire', 'En cours', 'Fait']
-    };
+    }
 
     // fonction qui gère le rendu
     render() {
@@ -15,6 +17,7 @@ export default class App extends Component {
 
         return (
             <Fragment>
+                <Timer />
                 {
                     // on boucle sur les items de la liste de todos (lists)
                     lists.map((item,i) => <TodoList key={i} header={item} />)
@@ -24,3 +27,9 @@ export default class App extends Component {
         );
     }
 }
+
+TodoList.propTypes = {
+    header: PropTypes.string
+}
+
+export default App;

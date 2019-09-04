@@ -4,7 +4,7 @@ import Todo from "../Todo/Todo"; // l'utilisation du composant "AddNewTodo" dans
 import styles from './TodoList.module.scss';  // on importe les styles du module (l'extension *.module.scss indique qu'il doit cloisonner les styles du composant
 import AddNewTodo from "../AddNewTodo/AddNewTodo"; // l'utilisation du composant "AddNewTodo" dans "Todolist" nécessite de l'importer
 
-export default class TodoList extends Component {
+class TodoList extends Component {
 
     // fonction qui gère le rendu
     render() {
@@ -19,3 +19,5 @@ export default class TodoList extends Component {
         );
     }
 }
+
+export default TodoList;

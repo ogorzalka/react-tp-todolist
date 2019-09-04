@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from "./TodoList.module.scss";
 
-export default class TodoHeader extends Component {
+class TodoHeader extends Component {
     render() {
 
         return (
@@ -11,3 +11,5 @@ export default class TodoHeader extends Component {
         );
     }
 }
+
+export default TodoHeader;
