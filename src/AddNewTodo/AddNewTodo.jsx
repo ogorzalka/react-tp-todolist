@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import styles from './AddNewTodo.module.scss';
+import styles from './AddNewTodo.module.scss'; // on importe les styles du module (l'extension *.module.scss indique qu'il doit cloisonner les styles du composant
 
 export default class AddNewTodo extends Component {
+
+    // fonction qui gère le rendu
     render() {
 
         return (
