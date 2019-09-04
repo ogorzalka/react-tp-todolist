@@ -7,6 +7,7 @@ import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
 import { Welcome } from '@storybook/react/demo';
+import styles from "../AddNewList/AddNewList.module.scss";
 import TodoList from "../TodoList/TodoList";
 import Todo from "../Todo/Todo";
 import AddNewList from './../AddNewList/AddNewList';

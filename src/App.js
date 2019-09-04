@@ -6,7 +6,7 @@ export default class App extends Component {
 
     state = {
         lists: ['À faire', 'En cours', 'Fait']
-    }
+    };
 
     render() {
 
