@@ -1,4 +1,7 @@
 .todolist {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
   background-color: #ebecf0;
   border-radius: 3px;
   box-sizing: border-box;
@@ -7,7 +10,8 @@
   max-height: 100%;
   position: relative;
   white-space: normal;
-  min-width: 272px;
+  width: 25%;
+  max-width: 272px;
   margin: 10px;
   padding-bottom: 8px;
 }

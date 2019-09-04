@@ -10,7 +10,7 @@ export default class TodoList extends Component {
             <div className={styles.todolist}>
                 <TodoHeader>Mon titre</TodoHeader>
                 <div className={styles.cards}>
-                    <Todo></Todo>
+                    <Todo />
                     <AddNewTodo />
                 </div>
             </div>
