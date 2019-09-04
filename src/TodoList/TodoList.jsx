@@ -5,10 +5,11 @@ import styles from './TodoList.module.scss';
 import AddNewTodo from "../AddNewTodo/AddNewTodo";
 
 export default class TodoList extends Component {
+
     render() {
         return (
             <div className={styles.todolist}>
-                <TodoHeader>Mon titre</TodoHeader>
+                <TodoHeader>{this.props.header}</TodoHeader>
                 <div className={styles.cards}>
                     <Todo />
                     <AddNewTodo />
