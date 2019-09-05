@@ -5,7 +5,8 @@
   height: auto;
   padding: 8px;
   transition: background 85ms ease-in,opacity 40ms ease-in,border-color 85ms ease-in;
-  min-width: 272px;
+  max-width: 272px;
+  width: 100%;
   margin: 10px;
   appearance: none;
   -webkit-appearance: none;

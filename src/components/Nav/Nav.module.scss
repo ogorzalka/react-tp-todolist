@@ -1,0 +1,22 @@
+.nav {
+  background: rgba(#000, .1);
+  width: 100%;
+
+  ul {
+    display: flex;
+    list-style: none;
+
+    li {
+      a {
+        display: block;
+        padding: 5px;
+        color: #000;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
